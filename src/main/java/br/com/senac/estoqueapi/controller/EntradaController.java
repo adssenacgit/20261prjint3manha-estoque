@@ -23,7 +23,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/entradas")
-@CrossOrigin(origins = "*")
+@CrossOrigin("*")
 @Tag(name = "Entradas")
 public class EntradaController {
 
